@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anisa D'souza | Resume</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+    transition: 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #00f5ff, #ff00c8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #00f5ff;
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #ff00c8;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+ul li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact {
+    text-align: right;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.skill-tag {
+    display: inline-block;
+    background: linear-gradient(90deg, #00f5ff, #ff00c8);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin: 5px;
+    font-weight: 500;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    opacity: 0.6;
+    font-size: 13px;
+}
+
+@media(max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .contact {
+        text-align: left;
+        margin-top: 15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HEADER -->
+<div class="card">
+    <div class="top-section">
+        <div>
+            <h1>Anisa D'souza</h1>
+            <p>B.Tech Computer Science (AI & ML) | Cybersecurity & AI Enthusiast</p>
+        </div>
+        <div class="contact">
+            <p>📍 Mumbai, India</p>
+            <p>📧 anisa.dsouza@gmail.com</p>
+            <p>📞 +91 9136843207</p>
+            <p>🔗 linkedin.com/in/anisa-dsouza</p>
+            <p>💻 github.com/anisadsouza</p>
+        </div>
+    </div>
+</div>
+
+<!-- PROFILE -->
+<div class="card">
+    <h2>Profile</h2>
+    <p>
+        Second-year B.Tech Computer Science (AI & ML) student at Atlas SkillTech University 
+        with a strong interest in Cybersecurity and Artificial Intelligence. Focused on 
+        AI-driven threat detection, secure system design, and backend development. 
+        Actively building technical foundations through structured projects and research.
+    </p>
+</div>
+
+<div class="grid">
+
+<!-- LEFT COLUMN -->
+<div>
+
+<div class="card">
+    <h2>Education</h2>
+    <h3>B.Tech Computer Science (AI & ML)</h3>
+    <p>Atlas SkillTech University | 2024 – 2028</p>
+    <h3>JBCN International School</h3>
+    <p>2018 – 2022</p>
+</div>
+
+<div class="card">
+    <h2>Experience</h2>
+    <h3>Cybersecurity Intern – Ernst & Young (EY)</h3>
+    <p>May 2025 – July 2025</p>
+    <ul>
+        <li>Gained exposure to cybersecurity practices in corporate environments</li>
+        <li>Learned information security standards and risk management concepts</li>
+        <li>Observed compliance and security assessment processes</li>
+        <li>Understood SDLC fundamentals and security policies</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Research</h2>
+    <h3>Defending Digital Reality</h3>
+    <p>AI-based multimodal deepfake detection framework</p>
+    <h3>Digital Footprints Study</h3>
+    <p>Privacy and cybersecurity analysis of digital data trails</p>
+</div>
+
+</div>
+
+<!-- RIGHT COLUMN -->
+<div>
+
+<div class="card">
+    <h2>Projects</h2>
+
+    <h3>Polaris – Cloudburst Risk Monitoring</h3>
+    <p>FastAPI, PyTorch, MongoDB, Flutter, Firebase</p>
+
+    <h3>Library Management System</h3>
+    <p>Django, SQLite, HTML, CSS</p>
+
+    <h3>Space Debris Risk Classifier</h3>
+    <p>Python, Scikit-learn, NumPy, Pandas</p>
+
+    <h3>Behavioral Health Analytics</h3>
+    <p>Python, Tableau</p>
+
+    <h3>Threat Intelligence Dashboard</h3>
+    <p>Python, REST APIs, Data Visualization</p>
+</div>
+
+<div class="card">
+    <h2>Technical Skills</h2>
+
+    <div class="skill-tag">Python</div>
+    <div class="skill-tag">PyTorch</div>
+    <div class="skill-tag">Scikit-learn</div>
+    <div class="skill-tag">FastAPI</div>
+    <div class="skill-tag">Django</div>
+    <div class="skill-tag">MongoDB</div>
+    <div class="skill-tag">MySQL</div>
+    <div class="skill-tag">SQLite</div>
+    <div class="skill-tag">Firebase</div>
+    <div class="skill-tag">Docker</div>
+    <div class="skill-tag">Azure VM</div>
+    <div class="skill-tag">REST APIs</div>
+    <div class="skill-tag">Tableau</div>
+    <div class="skill-tag">Flutter</div>
+    <div class="skill-tag">Git & GitHub</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="footer">
+    © 2026 Anisa D'souza | Built with HTML
+</div>
+
+</div>
+
+</body>
+</html>
